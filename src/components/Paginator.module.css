@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  background: #eeeeee;
+  border: none;
+}
+
+.button:hover {
+  background: #dddddd;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+}
+
+.selected {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border: none;
+  background: #dddddd;
+}

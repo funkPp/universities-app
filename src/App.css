@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  color: black;
+}
+
+.details {
+  text-align: left;
+  padding: 10px;
+  width: 400px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  height: 440px;
+  overflow: auto;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid blue; */
+}
+
+.liHover:hover {
+  cursor: pointer;
+  background: #eeeeee;
+}
+
+
+.details_container {
+  padding: 10px;
+  width: 49%;
+  /* border: 1px solid green; */
+}
+
+.listAndDetails {
+  padding: 30px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+  max-width: 1300px;
+  height: 460px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 10px 20px 10px 50px;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+  /* border: 1px solid rgba(225, 3, 245, 0.966); */
+}

@@ -1,0 +1,39 @@
+.Loading {
+  cursor: wait;
+}
+
+.liHover:hover {
+  cursor: pointer;
+  background: #eeeeee;
+}
+
+nav {
+  text-align: right;
+  float: right;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  width: 60px;
+  height: 30px;
+  padding: 6px;
+  background: #eeeeee;
+  border: 1px solid #ffffff;
+}
+
+a:hover {
+  background: #dddddd;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+}
+
+a:active {
+  border: none;
+  background: #dddddd;
+}
+
+.active  {
+  background: #dddddd;
+}
+

@@ -1,0 +1,43 @@
+.textarea {
+  width: 300px;
+  height: 50px;
+  resize: none;
+}
+
+input {
+  width: 200px;
+}
+
+select {
+  width: 200px;
+}
+
+.submit {
+  float: right;
+  text-decoration: none;
+  width: 65px;
+  height: 30px;
+  padding: 6px;
+  background: #eeeeee;
+  border: 1px solid #ffffff;
+}
+
+.submit:hover {
+  background: #dddddd;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+}
+
+.submit:active {
+  border: none;
+  background: #dddddd;
+}
+
+.validationError {
+  color: red;
+  font-size: small;
+}
+
+.col1 {
+  vertical-align: top;
+}
