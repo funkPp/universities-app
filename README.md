@@ -1,10 +1,10 @@
-git clone https://github.com/funkPp/universities-app/
-cd universities-app
-npm i
-npm start
-cd src  
-node api  //--> запуск эмуляции API сервера (на express-e)
-open http://localhost:3000/
+git clone https://github.com/funkPp/universities-app/  
+cd universities-app  
+npm i  
+npm start  
+cd src    
+node api  //--> запуск эмуляции API сервера (на express-e)  
+open http://localhost:3000/  
 
 
 
