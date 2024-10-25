@@ -1,3 +1,15 @@
+git clone https://github.com/funkPp/universities-app/
+cd universities-app
+npm i
+npm start
+cd src  
+node api  //--> запуск эмуляции API сервера (на express-e)
+open http://localhost:3000/
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
